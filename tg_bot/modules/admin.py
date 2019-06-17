@@ -28,7 +28,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("നിങ്ങൾ ആരേം സൂചിപ്പിച്ചില്ലലോ.... 🤷🏻‍♂.")
+        message.reply_text("നിനക്ക് കണ്ണിനു വല്ല കുഴപ്പം ഉണ്ടോടെയ്😏😏... 🤷🏻‍♂.")
         return ""
 
     user_member = chat.get_member(user_id)
@@ -74,12 +74,12 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("നിങ്ങൾ ആരേം സൂചിപ്പിച്ചില്ലലോ.... 🤷🏻‍♂.")
+        message.reply_text("നിനക്ക് കണ്ണിനു വല്ല കുഴപ്പം ഉണ്ടോടെയ്😏😏....")
         return ""
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("ഗ്രൂപ്പ് ഉണ്ടാക്കിയ ആളെ ബാൻ ചെയ്യാൻമാത്രം തോമ ചെറ്റയല്ല.... 😬")
+        message.reply_text("അഡ മോനെ ഇതൊന്നും അത്ര നല്ലതല്ല കെട്ടോ🤒🤒🤒")
         return ""
 
     if not user_member.status == 'administrator':
