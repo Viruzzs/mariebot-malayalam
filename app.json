@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/anandus0070/mariebot-malayalam",
+  "repository": "https://github.com/Viruzzs/mariebot-malayalam",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
